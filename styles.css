@@ -20,18 +20,20 @@ body {
     padding-left: 10em;
 }
 
-.header-top ul {
-    display: inline-flex;
+ul {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
     padding: 10px;
-}
-
-ul {
     font-size: 18px;
     color: #E5E7EB;
     margin-left: 44em;
+    margin-right: 12em;
     list-style-type: none;
     gap: 18px;
+}
+
+.signup {
+    display: flexl
 }
