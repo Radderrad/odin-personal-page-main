@@ -1,25 +1,26 @@
 body {
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.body {
-    display: flex;
-}
-
 .header {
-    background-color: #1F2937;
-    color: #F9FAF8;
     font-size: 24px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     min-width: 1400px;
     flex-shrink: 0;
     padding-left: 10em;
 }
 
+.header, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 60px;
+    align-items: center;
+}
 ul {
     display: flex;
     justify-content: space-between;
@@ -28,12 +29,44 @@ ul {
     padding: 10px;
     font-size: 18px;
     color: #E5E7EB;
-    margin-left: 44em;
+    margin-left: 36em;
     margin-right: 12em;
     list-style-type: none;
     gap: 18px;
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(141, 53, 53);
+}
+
+div {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
 .signup {
-    display: flexl
+    display: flex;
+    border: 1px solid rgb(0, 0, 0); /* Borders for debugging */
+}
+
+.info {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0); /* Borders for debugging */
+}
+
+.quote {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0); /* Borders for debugging */
+}
+
+.bottom {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0); /* Borders for debugging */
+}
+
+.footer {
+    justify-content: center;
 }
